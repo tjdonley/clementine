@@ -49,7 +49,7 @@
      the relationship, and the system's performance. -->
 
 ## Ground Truth Check
-<!-- Pick 1 preserved raw daily log from raw/.
+<!-- Pick 1 preserved raw daily log from memory/raw/.
      Compare its content against the consolidated weekly/monthly summaries.
      Note any consolidation drift. -->
 - Raw log checked: [filename]

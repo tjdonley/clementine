@@ -913,7 +913,7 @@ Next session priority: [Meta-{CHARACTER_SHORT} sets this after scoring]
 ```
 
 **Key principles for STATE.md generation:**
-- All Thompson parameters start at Beta(1,1) — no pre-biasing
+- Thompson parameters are tier-specific: Light α=2/β=8, Medium α=3/β=7, Deep α=2/β=6 — priors reflect expected engagement rates per tier
 - Loops must reflect THIS character's interests and personality, not generic content categories
 - Light loops should connect to the character's domain knowledge and interests
 - Medium loops should feel like things this specific person would actually initiate
