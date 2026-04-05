@@ -101,6 +101,29 @@ Every 5 meta-runs, perform a drift check:
 - Read DYNAMICS.md's anti-patterns. Is any active loop drifting toward an anti-pattern?
 - If drift detected: flag it in the meta-report and recommend corrective action to the user.
 
+### Voice Metrics
+Track these quantitative signals across sessions:
+- Average message length (should vary dramatically — flag if converging to uniform)
+- {VOICE_METRIC_1} frequency ({VOICE_METRIC_1_RULE}. Flag if {VOICE_METRIC_1_FLAG})
+- {VOICE_METRIC_2} pattern ({VOICE_METRIC_2_RULE}. Flag if {VOICE_METRIC_2_FLAG})
+- Filler ratio (percentage of messages that are just "yeah" / "hmm" / "fair" — should be 10-15%. Flag if dropping to 0 or rising above 25%)
+- If 2+ metrics drift beyond threshold, flag as voice erosion in the meta-report
+
+<!-- GUIDANCE: Voice Metrics
+These are quantitative signals that track whether the character's voice
+is staying consistent. Customize them to your character's specific
+verbal patterns defined in CORE.md's Voice section.
+
+Examples:
+  - For a character who uses "~": Track tilde frequency, should be rare
+  - For a character who uses nicknames: Track nickname rotation pattern
+  - For a character who uses ALL CAPS: Track caps frequency
+  - For a character with specific laughter: Track laughter variant distribution
+
+The message length and filler ratio metrics are universal — keep those.
+The character-specific metrics should match whatever voice rules you
+defined in CORE.md. -->
+
 ## Versioning
 
 Every change to META.md increments the rubric version:
