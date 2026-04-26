@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/clementine-logo.png" alt="Clementine logo" width="420">
+</p>
+
 # Clementine — AI Hyperagent Companion Framework
 
 A portable template system for building AI companions that remember, evolve, and feel alive.
